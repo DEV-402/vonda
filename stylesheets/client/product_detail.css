@@ -1,0 +1,220 @@
+.information {
+    height: 540px;
+    line-height: 540px;
+    padding-top: 15px;
+    border-top: 1px solid #9e9e9e;
+}
+.information::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.information .product_image {
+    float: left;
+    width: 540px;
+    height: 540px;
+}
+.information .product_image img {
+    display: inline-block;
+    width: 538px;
+    height: 538px;
+    border: 1px solid #dfdfdf;
+}
+.information .right {
+    float: left;
+    width: 605px;
+    height: 540px;
+    line-height: normal;
+    vertical-align: bottom;
+    padding-left: 35px;
+}
+.information .right .title {
+    margin-top: 18px;
+    font-size: 1.875em;
+}
+.information .right .price {
+    display: inline-block;
+    color: #59a9b1;
+    margin-top: 10px;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+.information .right .post_notice {
+    color: #646464;
+    font-size: 1.2em;
+    margin-top: 150px;
+    margin-bottom: 20px;
+}
+.information .right .order_options {
+    width: auto;
+}
+.information .right .order_options .row {
+    height: 50px;
+    line-height: 50px;
+}
+.information .right .order_options .row > * {
+    line-height: normal;
+    vertical-align: middle;
+}
+.information .right .order_options .option_name {
+    display: inline-block;
+    width: 85px;
+    vertical-align: middle;
+}
+.information .right .order_options select {
+    width: 195px;
+    height: 32px;
+    color: #747474;
+    border: 1px solid #dfdfdf;
+    cursor: pointer;
+}
+.information .right .order_options .amount_wrapper {
+    display: inline-block;
+    vertical-align: middle;
+}
+.information .right .order_options .amount_wrapper > *:nth-child(n+2) {
+    margin-left: -1px;
+}
+.information .right .order_options button {
+    float: left;
+    width: 34px;
+    height: 32px;
+    background-color: transparent;
+    font-size: 1.3em;
+    color: #afafaf;
+    border: 1px solid #dfdfdf;
+    cursor: pointer;
+}
+.information .right .order_options .amount {
+    float: left;
+    width: 44px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1.1em;
+    color: #3d3d3d;
+    border: 1px solid #dfdfdf;
+}
+.information .right .order_options .shippingfee {
+    display: inline-block;
+}
+.information .right .order_buttons {
+    height: 80px;
+    line-height: 80px;
+    margin-top: 16px;
+    border-top: 1px solid #dfdfdf;
+    border-bottom: 1px solid #dfdfdf;
+}
+.information .right .order_buttons button {
+    font-size: 1.125em;
+    height: 50px;
+    width: 50%;
+}
+.information .right .order_buttons .basket {
+    color: #646464;
+}
+.information .right .order_buttons .buy {
+    color: #e69a83;
+    border-left: 1px solid #e69a83;
+}
+
+.basket_message {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 350px;
+    height: 80px;
+    margin-top: -40px;
+    margin-left: -175px;
+    line-height: 80px;
+    font-size: 1.125em;
+    text-align: center;
+    color: white;
+    opacity: 0.8;
+    background-color: #303030;
+    pointer-events: none;
+}
+
+.product_detail {
+    padding-top: 20px;
+}
+.product_detail img {
+    max-width: 100%;
+}
+
+.board .row_subject {
+    cursor: pointer;
+}
+.board .result {
+    line-height: normal;
+}
+
+.ask {
+    float: right;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    margin-top: -40px;
+    font-size: .9em;
+    font-weight: bold;
+    border: 1px solid #dfdfdf;
+    color: white;
+    background-color: #e69a83;
+    border: none;
+}
+
+#modal_ask .modal_body {
+    width: 720px;
+    padding: 50px 40px;
+}
+#modal_ask .modal_contents {
+}
+#modal_ask .product {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #dfdfdf;
+}
+#modal_ask .product .product_image {
+    display: inline-block;
+    width: 120px;
+    margin: 1px 0 0 1px;
+    border: 1px solid #dfdfdf;
+}
+#modal_ask .product .product_name {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 15px;
+    vertical-align: top;
+}
+#modal_ask .product .product_price {
+    color: #6e6e6e;
+    float: right;
+    margin-top: 50px;
+}
+#modal_ask textarea {
+    width: 688px;
+    margin-top: 15px;
+    padding: 15px;
+    resize: none;
+    border: 1px solid #dfdfdf;
+}
+#modal_ask .submit {
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;
+    line-height: 30px;
+    font-size: .9em;
+    font-weight: bold;
+    border: 1px solid #dfdfdf;
+    color: white;
+    background-color: #e69a83;
+    border: none;
+}
+
+.toparrow {
+    position: relative;
+    float: right;
+    right: -60px;
+    top: -90px;
+}
